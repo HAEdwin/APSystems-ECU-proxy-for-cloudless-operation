@@ -16,7 +16,7 @@ This is of course not the complete functional description of how the ECU works, 
 
 # Disadvantage
 - No large repository of historical data and (trend-)analysis at EMA
-- No ECU and Inverter (Over The Air) firmware updates. 
+- No ECU and Inverter (Over The Air) firmware updates
 
 # Advantage
 - You can use this method to optain the data directly from the ECU without having to scrape the EMA website and then push it to PVOutput for example (you will be missing some inverter parameters like signal strengths and temperatures though)
@@ -41,6 +41,7 @@ My current version: ECU_R_1.2.17Z30
 
 # To Do
 - Clean up code
+- Bugfixes
 - Error handling and shutting clean
 - Integrate with Home Assistant
 - More testing (compatibility with ECU-C)
