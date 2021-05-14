@@ -24,8 +24,11 @@ This is of course not the complete functional description of how the ECU works, 
 
 # How to use
 1. DNS rewrite \*.apsystemsema.com to a local host that is running this script (check if a ping to ecu.apsystemsema.com resolves to your host IP-address)
-2. Block all (future) communication with APSystems and EMA system
+2. Block all (future) communication with APSystems and EMA system. Current list of domains include:
 * apsystemsema.cn
+* ecuna.apsema.com
+* ecueu.apsema.com
+* ecu2.apsema.com
 * \*.apsystemsema.cn
 * \*.apsema.com
 * \*.apsystems.com
