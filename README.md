@@ -15,8 +15,9 @@ This is of course not the complete functional description of how the ECU works, 
 - Ability to privately own the produced data
 
 # Disadvantage
-- No large repository of historical data and (trend-)analysis at EMA
+- If you are not using HA, no large repository of historical data and (trend-)analysis is available
 - No ECU and Inverter (Over The Air) firmware updates
+- You'll have to know how to reroute traffic
 
 # Advantage
 - You can use this method to optain the data directly from the ECU without having to scrape the EMA website and then push it to PVOutput for example (you will be missing some inverter parameters like signal strengths and temperatures though)
@@ -37,12 +38,12 @@ This is of course not the complete functional description of how the ECU works, 
 4. You're done
 
 # Firmware history
-My current version: ECU_R_1.2.17Z30
+Tested on an ECU-R with version: ECU_R_1.2.17
 
 # To Do
 - Clean up code
 - Bugfixes
 - Error handling and shutting clean
 - Integrate with Home Assistant
-- More testing (compatibility with ECU-C)
+- More testing against latest firmware
 - Optionally enable full proxy forwarding data to the EMA site as well
